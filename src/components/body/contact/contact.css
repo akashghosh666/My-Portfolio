@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-left p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20%;
+}
+.contact-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+.conatct-left {
+  max-width: 60%;
+  font-size: 20px;
+  text-align: center;
+}
+.download {
+  display: flex;
+  padding: 8px 15px;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to left,
+
+    #48ff3b,
+    #82e213,
+    #dbfb5f
+  );
+  border-radius: 999px;
+}
+.download a {
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+}

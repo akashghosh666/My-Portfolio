@@ -1,0 +1,54 @@
+.about {
+  padding-bottom: 50px;
+}
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.picture {
+  width: 420px;
+}
+.about-info {
+  font-size: 24px;
+}
+.info-name {
+  color: blue;
+  font-weight: 35px;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-name {
+    font-size: 26px;
+  }
+
+  .picture {
+    height: 250px;
+  }
+}
+.about-info {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-info h2 {
+  animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

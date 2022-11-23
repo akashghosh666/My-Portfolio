@@ -1,0 +1,31 @@
+.web {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-family: "Work Sans", sans-serif;
+}
+.web-option {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.web-option a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 4px;
+}
+img {
+  width: 25px;
+}
+.web-option:last-child {
+  margin: 0px;
+}

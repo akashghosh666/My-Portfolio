@@ -1,0 +1,19 @@
+.social {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.social-icon-div {
+  padding-right: 40px;
+}
+.icon-image {
+  width: 100px;
+}
+@media only screen and(max-width:720px) {
+  .icon-image {
+    max-width: 10px;
+  }
+  .social-icon-div {
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  flex: 1;
+  position: relative;
+  padding: 12px;
+}
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.web-menu {
+  display: flex;
+}
+.mobile-menu {
+  display: none;
+}
+.menu-icon {
+  width: 40px;
+}
+.logo {
+  font-size: 35px;
+  color: blueviolet;
+}
+@media only screen and (max-width: 600px) {
+  .web-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+}

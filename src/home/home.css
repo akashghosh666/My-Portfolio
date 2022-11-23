@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+  /* background-color: brown; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and(max-width:1020px) {
+  .home {
+    width: 90%;
+  }
+}
+@media only screen and(max-width:520px) {
+  .home {
+    width: 100%;
+  }
+}
