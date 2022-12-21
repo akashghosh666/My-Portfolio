@@ -21,21 +21,22 @@ export const SkillData = [
     ],
   },
 
-  {
-    type: "Backend",
-    list: [
-      {
-        name: "nodejs",
-        icon: <i class="devicon-nodejs-plain-wordmark colored"></i>,
-      },
-      {
-        name: "Expressjs",
-        icon: <i class="devicon-express-original colored"></i>,
-      },
-      {
-        name: "MongoDb",
-        icon: <i class="devicon-mongodb-plain colored"></i>,
-      },
-    ],
-  },
+  { type: "Backend", list: [] },
+  // {
+  //   type: "Backend",
+  //   list: [
+  //     {
+  //       name: "nodejs",
+  //       icon: <i class="devicon-nodejs-plain-wordmark colored"></i>,
+  //     },
+  //     {
+  //       name: "Expressjs",
+  //       icon: <i class="devicon-express-original colored"></i>,
+  //     },
+  //     {
+  //       name: "MongoDb",
+  //       icon: <i class="devicon-mongodb-plain colored"></i>,
+  //     },
+  //   ],
+  // },
 ];
